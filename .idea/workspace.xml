@@ -4,111 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/SensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="ngon">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/com.zeroc.IceBuilderPlugin.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/com.zeroc.IceBuilderPlugin.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CityInfo" beforeDir="false" afterPath="$PROJECT_DIR$/CityInfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidAQI" beforeDir="false" afterPath="$PROJECT_DIR$/DavidAQI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidLocation" beforeDir="false" afterPath="$PROJECT_DIR$/DavidLocation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidTemperature" beforeDir="false" afterPath="$PROJECT_DIR$/DavidTemperature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JackAQI" beforeDir="false" afterPath="$PROJECT_DIR$/JackAQI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JackLocation" beforeDir="false" afterPath="$PROJECT_DIR$/JackLocation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JackTemperature" beforeDir="false" afterPath="$PROJECT_DIR$/JackTemperature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocationServerConfig" beforeDir="false" afterPath="$PROJECT_DIR$/LocationServerConfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preference" beforeDir="false" afterPath="$PROJECT_DIR$/Preference" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config.icebox" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.icebox" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config.pub" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.pub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config.service" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config.sub" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.sub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/db/data.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/db/icedb.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/db/lock.mdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlarmPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlerterPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/MonitorPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/SensorData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlarmPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlerterPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_ContextManagerWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_LocationWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_MonitorPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_PreferenceWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_WeatherAlarmWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$ContextManagerWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$MonitorI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$AlerterI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer$LocationWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository$PreferenceWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms$WeatherAlarmWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/HandleUserInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/LocationDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Preference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Sensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/SensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AllSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AllSensors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/LocationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LocationServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/PreferenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PreferenceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slice/Helper.ice" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slice/Helper.ice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/HandleUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support/HandleUserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/LocationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support/LocationDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/Preference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support/Preference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/SensorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/slice/Helper.ice" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_alarms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weather_alarms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/slice/Helper.ice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/support/HandleUserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/support/LocationDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/support/Preference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/support/Sensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SensorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +45,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28nENxvcC62z9LPkBQdduvl921T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/William/Documents/QA---Group-Project/icestorm-3.7.2.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -152,10 +71,29 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocationServer (1)">
-    <configuration name="LocationServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocationServer" />
+  <component name="RunManager" selected="Multirun.Unnamed">
+    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,21 +124,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
+      <runConfiguration name="LocationServer" type="Application" />
+      <runConfiguration name="PreferenceRepository" type="Application" />
+      <runConfiguration name="WeatherAlarms" type="Application" />
+      <runConfiguration name="ContextManager" type="Application" />
+      <runConfiguration name="EnviroAPPUI" type="Application" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.ContextManager" />
+      <item itemvalue="Application.EnviroAPPUI" />
+      <item itemvalue="Application.WeatherAlarms" />
       <item itemvalue="Application.LocationServer" />
-      <item itemvalue="Application.LocationServer (1)" />
       <item itemvalue="Application.PreferenceRepository" />
+      <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocationServer (1)" />
+        <item itemvalue="Application.EnviroAPPUI" />
+        <item itemvalue="Application.ContextManager" />
+        <item itemvalue="Application.WeatherAlarms" />
         <item itemvalue="Application.PreferenceRepository" />
         <item itemvalue="Application.LocationServer" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="ngon">
+      <created>1651836846267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651836846267</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ngon">
+      <created>1651836859110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651836859110</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="ngon" />
+      <created>1651843915841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651843915841</updated>
+      <workItem from="1651843917407" duration="497000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -212,5 +203,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ngon" />
+    <option name="LAST_COMMIT_MESSAGE" value="ngon" />
   </component>
 </project>

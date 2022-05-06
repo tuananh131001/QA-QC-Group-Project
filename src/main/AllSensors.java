@@ -1,3 +1,5 @@
+package main;
+
 import com.zeroc.Ice.Communicator;
 import com.zeroc.IceStorm.TopicPrx;
 
