@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="ngon">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AllSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AllSensors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/LocationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LocationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/PreferenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PreferenceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slice/Helper.ice" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/HandleUserInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/LocationDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/Preference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support/Sensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/SensorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/SensorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Multirun.Unnamed">
+  <component name="RunManager" selected="JUnit.SensorTest">
     <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="csse4004" />
@@ -98,41 +90,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
+    <configuration name="SensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreferenceRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.PreferenceRepository" />
+    <configuration name="SensorTest.testGetUserName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
+      <option name="METHOD_NAME" value="testGetUserName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
+    <configuration name="SensorTest.testGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
+      <option name="METHOD_NAME" value="testGetUserName(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,18 +148,18 @@
     <list>
       <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="Application.WeatherAlarms" />
-      <item itemvalue="Application.LocationServer" />
-      <item itemvalue="Application.PreferenceRepository" />
+      <item itemvalue="JUnit.SensorTest" />
+      <item itemvalue="JUnit.SensorTest.testGetUserName" />
+      <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SensorTest" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName" />
         <item itemvalue="Application.EnviroAPPUI" />
         <item itemvalue="Application.ContextManager" />
-        <item itemvalue="Application.WeatherAlarms" />
-        <item itemvalue="Application.PreferenceRepository" />
-        <item itemvalue="Application.LocationServer" />
       </list>
     </recent_temporary>
   </component>
@@ -185,9 +185,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651843915841</updated>
-      <workItem from="1651843917407" duration="497000" />
+      <workItem from="1651843917407" duration="1387000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ngon">
+      <created>1651844513365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651844513365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ngon">
+      <created>1651844526874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651844526874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
