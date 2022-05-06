@@ -1,5 +1,3 @@
-package main;
-
 import com.zeroc.Ice.Communicator;
 import com.zeroc.IceStorm.TopicPrx;
 
@@ -7,15 +5,14 @@ import helper.*;
 import support.Sensor;
 
 public class AllSensors {
-	public String username; // change private to none
-	public boolean signal; // change private to none
-	public Sensor locationSensor; // change private to none - package access
-	public Sensor temperatureSensor; // change private to none - package access
-	public Sensor aqiSensor; // change private to none - package access
-	public Communicator communicator; // change private to none
-	public MonitorPrx monitor; //change private to none - package access
-
-
+	private String username;
+	private boolean signal;
+	private Sensor locationSensor;
+	private Sensor temperatureSensor;
+	private Sensor aqiSensor;
+	private Communicator communicator;
+	private MonitorPrx monitor;
+	
 
 	public AllSensors(String username) {
 		this.username = username;
@@ -23,8 +20,6 @@ public class AllSensors {
 		this.locationSensor = new Sensor(username, "Location");
 		this.temperatureSensor = new Sensor(username, "Temperature");
 		this.aqiSensor = new Sensor(username, "AQI");
-		//TODO adding line for testing
-		System.out.println("--- From AllSensors --- Successfully received and updated username "+username+".");
 		this.communicator = com.zeroc.Ice.Util.initialize();
 		setupMonitor();
 	}
@@ -54,7 +49,7 @@ public class AllSensors {
 		communicator.shutdown();
 	}
 
-	void setupMonitor() { // change private to none
+	private void setupMonitor() {
 		String topicName = username + "-sensors";
 		com.zeroc.Ice.ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
 		com.zeroc.IceStorm.TopicManagerPrx topicManager = com.zeroc.IceStorm.TopicManagerPrx.checkedCast(obj);
@@ -74,13 +69,12 @@ public class AllSensors {
 		monitor = MonitorPrx.uncheckedCast(pub);
 	}
 
-	public SensorData getSensorData() { // change private to none
+	private SensorData getSensorData() {
 		String location = this.locationSensor.getCurrentValue();
 		int temperature = Integer.parseInt(this.temperatureSensor.getCurrentValue());
 		int uvr = Integer.parseInt(this.aqiSensor.getCurrentValue());
 		SensorData data = new SensorData(this.username, location, temperature, uvr);
 		return data;
 	}
-
 
 }
