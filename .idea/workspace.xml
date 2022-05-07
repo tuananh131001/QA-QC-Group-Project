@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="Test Case">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestInvalid.java" afterDir="false" />
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="len">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/SensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,7 @@
       <workItem from="1651843917407" duration="1387000" />
       <workItem from="1651889364176" duration="160000" />
       <workItem from="1651889534163" duration="39000" />
-      <workItem from="1651889583667" duration="7515000" />
+      <workItem from="1651889583667" duration="8925000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -241,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651891694759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="len">
+      <created>1651899317791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651899317791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,18 +265,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ngon" />
     <MESSAGE value="Test Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Case" />
+    <MESSAGE value="len" />
+    <option name="LAST_COMMIT_MESSAGE" value="len" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="support.Sensor" memberName="iterator" />

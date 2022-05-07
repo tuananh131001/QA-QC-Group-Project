@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import support.Sensor;
 
+import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -28,12 +29,12 @@ public class sensorTestCurrentValueAndSecond {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][]{
-                {"Jack", "AQI", 10,"200", 9},
+                {"Jack", "AQI", 10,"200", 14},
                 {"Jack", "Location", 1,"A", 0},
-                {"Jack", "Temperature",3, "10", 2},
-                {"David", "AQI",10, "200", 9},
+                {"Jack", "Temperature",3, "10", 4},
+                {"David", "AQI",10, "200", 14},
                 {"David", "Location",1, "A", 0},
-                {"David", "Temperature",3, "10", 2}};
+                {"David", "Temperature",3, "10", 4}};
         return Arrays.asList(data);
     }
 
@@ -44,9 +45,14 @@ public class sensorTestCurrentValueAndSecond {
         assertEquals(sensor.getCurrentValue(), expected);
     }
     @Test
-    public void testGetSec() {
+    public void testGetSec() throws NoSuchFieldException, IllegalAccessException {
         Sensor sensor = new Sensor(name, type);
-        assertEquals(sensor.getData().get(sensor.getCurrentValue()), expectedSeconds);
+        sensor.getCurrentValue();
+        Field secondField = Sensor.class.getDeclaredField("seconds");
+        secondField.setAccessible(true);
+        Integer fieldValue = (Integer) secondField.get(sensor);
+        assertEquals(fieldValue, expectedSeconds);
+
     }
 
 }
