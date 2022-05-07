@@ -1,4 +1,4 @@
-package tests;
+package tests.Sensor;
 
 
 import org.junit.Test;
@@ -6,14 +6,13 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import support.Sensor;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class SensorTest {
+public class sensorTestValid {
     @Parameterized.Parameter(0)
     public String name;
 
