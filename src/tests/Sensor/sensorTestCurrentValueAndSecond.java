@@ -16,7 +16,6 @@ import static org.junit.Assert.assertEquals;
 public class sensorTestCurrentValueAndSecond {
     @Parameterized.Parameter(0)
     public String name;
-
     @Parameterized.Parameter(1)
     public String type;
     @Parameterized.Parameter(2)
@@ -37,7 +36,6 @@ public class sensorTestCurrentValueAndSecond {
                 {"David", "Temperature",3, "10", 4}};
         return Arrays.asList(data);
     }
-
 
     @Test
     public void testGetCurrent() {

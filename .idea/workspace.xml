@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="len">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sensorTestCurrentValueAndSecond.testGetSec">
+  <component name="RunManager" selected="JUnit.sensorTestCurrentValueAndSecond">
     <configuration name="SensorTest_Valid.testGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -182,11 +180,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
         <item itemvalue="JUnit.sensorTestCurrentValueAndSecond" />
-        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetCurrent" />
-        <item itemvalue="JUnit.sensorTestValid" />
         <item itemvalue="JUnit.sensorTestInvalid" />
+        <item itemvalue="JUnit.sensorTestValid" />
+        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
+        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetCurrent" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,7 @@
       <workItem from="1651843917407" duration="1387000" />
       <workItem from="1651889364176" duration="160000" />
       <workItem from="1651889534163" duration="39000" />
-      <workItem from="1651889583667" duration="8925000" />
+      <workItem from="1651889583667" duration="9552000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651899317791</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="len">
+      <created>1651903454596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651903454596</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
