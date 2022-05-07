@@ -171,12 +171,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Multirun.Unnamed" />
+      <item itemvalue="JUnit.SensorTest_Valid.testGetUserName" />
       <item itemvalue="JUnit.sensorTestValid" />
       <item itemvalue="JUnit.sensorTestInvalid" />
       <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetCurrent" />
       <item itemvalue="JUnit.sensorTestCurrentValueAndSecond" />
       <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
+      <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -213,7 +214,8 @@
       <workItem from="1651843917407" duration="1387000" />
       <workItem from="1651889364176" duration="160000" />
       <workItem from="1651889534163" duration="39000" />
-      <workItem from="1651889583667" duration="9552000" />
+      <workItem from="1651889583667" duration="9766000" />
+      <workItem from="1651913782525" duration="899000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651903454596</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="len">
+      <created>1651904117521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651904117521</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
