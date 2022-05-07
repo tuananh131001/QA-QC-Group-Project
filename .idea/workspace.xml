@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="ngon">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/SensorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/SensorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/William/Documents/QA---Group-Project/icestorm-3.7.2.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main" />
@@ -137,6 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
       <runConfiguration name="LocationServer" type="Application" />
       <runConfiguration name="PreferenceRepository" type="Application" />
@@ -156,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SensorTest" />
-        <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
-        <item itemvalue="JUnit.SensorTest.testGetUserName" />
         <item itemvalue="Application.EnviroAPPUI" />
         <item itemvalue="Application.ContextManager" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +194,9 @@
       <option name="presentableId" value="Default" />
       <updated>1651843915841</updated>
       <workItem from="1651843917407" duration="1387000" />
+      <workItem from="1651889364176" duration="160000" />
+      <workItem from="1651889534163" duration="39000" />
+      <workItem from="1651889583667" duration="1844000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>

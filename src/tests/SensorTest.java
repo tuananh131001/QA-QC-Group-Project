@@ -19,16 +19,32 @@ public class SensorTest {
 
     @Parameterized.Parameter(1)
     public String type;
+    @Parameterized.Parameter(2)
+    public String expected;
+    @Parameterized.Parameter(3)
+    public String expectedType;
+
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
-        Object[][] data = new Object[][] { { "Jack","AQI" }, {  "Jack","Location" } };
+        Object[][] data = new Object[][]{
+                {"Jack", "AQI", "Jack", "AQI"},
+                {"Jack", "Temperature", "Jack", "Temperature"},
+                {"Jack", "Location", "Jack", "Location"},
+                {"David", "AQI", "David", "AQI"},
+                {"David", "Temperature", "David", "Temperature"},
+                {"David", "Location", "David", "Location"}};
         return Arrays.asList(data);
     }
 
 
     @Test
-    public void testGetUserName(){
-        Sensor sensor = new Sensor(name,type);
-        assertEquals(sensor.getUsername(),"Jack");
+    public void testGetUserName() {
+        Sensor sensor = new Sensor(name, type);
+        assertEquals(sensor.getUsername(), expected);
+    }
+    @Test
+    public void testGetType() {
+        Sensor sensor = new Sensor(name, type);
+        assertEquals(sensor.getType(), expectedType);
     }
 }
