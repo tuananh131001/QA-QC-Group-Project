@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="test dc r">
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/sensor0Seconds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="gud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651843915841</updated>
       <workItem from="1651843917407" duration="2115000" />
-      <workItem from="1652163673497" duration="4771000" />
+      <workItem from="1652163673497" duration="5983000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -215,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651845403533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gud">
+      <created>1652168989385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652168989385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +238,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ngon" />
     <MESSAGE value="test dc r" />
-    <option name="LAST_COMMIT_MESSAGE" value="test dc r" />
+    <MESSAGE value="gud" />
+    <option name="LAST_COMMIT_MESSAGE" value="gud" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
