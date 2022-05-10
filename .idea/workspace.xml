@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="len">
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="test dc r">
+      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/sensor0Seconds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestCurrentValueAndSecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/William/Desktop&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main" />
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sensorTestCurrentValueAndSecond">
-    <configuration name="SensorTest_Valid.testGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.sensor0Seconds">
+    <configuration name="SensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -67,14 +74,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SensorTest_Valid" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SensorTest.testGetUserName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
+      <option name="METHOD_NAME" value="testGetUserName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SensorTest.testGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
       <option name="METHOD_NAME" value="testGetUserName(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sensorTestCurrentValueAndSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="sensor0Seconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -83,24 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestCurrentValueAndSecond" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensor0Seconds" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sensorTestCurrentValueAndSecond.testGetCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestCurrentValueAndSecond" />
-      <option name="METHOD_NAME" value="testGetCurrent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,47 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sensorTestInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestInvalid" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sensorTestValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestValid" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="Multirun" separateTabs="false" reuseTabsWithFailures="false" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0.0">
       <runConfiguration name="LocationServer" type="Application" />
       <runConfiguration name="PreferenceRepository" type="Application" />
@@ -171,21 +152,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SensorTest_Valid.testGetUserName" />
-      <item itemvalue="JUnit.sensorTestValid" />
-      <item itemvalue="JUnit.sensorTestInvalid" />
-      <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetCurrent" />
-      <item itemvalue="JUnit.sensorTestCurrentValueAndSecond" />
+      <item itemvalue="JUnit.sensor0Seconds" />
       <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
+      <item itemvalue="JUnit.SensorTest" />
+      <item itemvalue="JUnit.SensorTest.testGetUserName" />
+      <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond" />
-        <item itemvalue="JUnit.sensorTestInvalid" />
-        <item itemvalue="JUnit.sensorTestValid" />
+        <item itemvalue="JUnit.sensor0Seconds" />
         <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
-        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetCurrent" />
+        <item itemvalue="JUnit.SensorTest" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
+        <item itemvalue="JUnit.SensorTest.testGetUserName" />
       </list>
     </recent_temporary>
   </component>
@@ -211,11 +191,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651843915841</updated>
-      <workItem from="1651843917407" duration="1387000" />
-      <workItem from="1651889364176" duration="160000" />
-      <workItem from="1651889534163" duration="39000" />
-      <workItem from="1651889583667" duration="9766000" />
-      <workItem from="1651913782525" duration="899000" />
+      <workItem from="1651843917407" duration="2115000" />
+      <workItem from="1652163673497" duration="4771000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -231,35 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651844526874</updated>
     </task>
-    <task id="LOCAL-00005" summary="Test Case">
-      <created>1651891694759</created>
+    <task id="LOCAL-00005" summary="test dc r">
+      <created>1651845403533</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1651891694759</updated>
+      <updated>1651845403533</updated>
     </task>
-    <task id="LOCAL-00006" summary="len">
-      <created>1651899317791</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1651899317791</updated>
-    </task>
-    <task id="LOCAL-00007" summary="len">
-      <created>1651903454596</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1651903454596</updated>
-    </task>
-    <task id="LOCAL-00008" summary="len">
-      <created>1651904117521</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1651904117521</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,15 +234,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ngon" />
-    <MESSAGE value="Test Case" />
-    <MESSAGE value="len" />
-    <option name="LAST_COMMIT_MESSAGE" value="len" />
+    <MESSAGE value="test dc r" />
+    <option name="LAST_COMMIT_MESSAGE" value="test dc r" />
   </component>
   <component name="XDebuggerManager">
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="support.Sensor" memberName="iterator" />
-      </pinned-members>
-    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="sensor.iterator" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
