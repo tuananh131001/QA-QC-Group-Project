@@ -5,7 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="gud">
+      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alarm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alarm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/AlarmPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/AlarmPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alerter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alerter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alerter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alerter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/AlerterPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/AlerterPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorkerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorkerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Monitor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/MonitorPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/MonitorPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorkerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/SensorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/SensorData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorkerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_AlarmPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_AlarmPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_AlerterPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_AlerterPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_ContextManagerWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_ContextManagerWorkerPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_LocationWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_LocationWorkerPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_MonitorPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_MonitorPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_PreferenceWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_PreferenceWorkerPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/_WeatherAlarmWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_WeatherAlarmWorkerPrxI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/AllSensors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AllSensors$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/AllSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AllSensors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$ContextManagerWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$ContextManagerWorkerI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$MonitorI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$MonitorI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$AlerterI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$AlerterI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/LocationServer$LocationWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/LocationServer$LocationWorkerI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/LocationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/LocationServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/PreferenceRepository$PreferenceWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/PreferenceRepository$PreferenceWorkerI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/PreferenceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/PreferenceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/WeatherAlarms$WeatherAlarmWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/WeatherAlarms$WeatherAlarmWorkerI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/WeatherAlarms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/WeatherAlarms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/support/HandleUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/HandleUserInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/support/LocationDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/LocationDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/support/Preference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/Preference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/support/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/Sensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensor0Seconds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensor0Seconds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestInvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestInvalid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestValid.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +107,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/William/Desktop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/William/Documents/QA---Group-Project&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -60,71 +120,27 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sensor0Seconds">
-    <configuration name="SensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SensorTest.testGetUserName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
-      <option name="METHOD_NAME" value="testGetUserName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SensorTest.testGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SensorTest" />
-      <option name="METHOD_NAME" value="testGetUserName(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.test0nonextiterator">
     <configuration name="sensor0Seconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
+      <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.Sensor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="liberica-18" />
       <option name="PACKAGE_NAME" value="tests.Sensor" />
       <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensor0Seconds" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sensorTestCurrentValueAndSecond.testGetSec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
+    <configuration name="sensorTestValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.Sensor.*" />
@@ -132,7 +148,53 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestCurrentValueAndSecond" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestValid" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test0nonextiterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Sensor" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test0nonextiterator.testGetCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Sensor" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
+      <option name="METHOD_NAME" value="testGetCurrent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test0nonextiterator.testGetSec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Sensor" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
       <option name="METHOD_NAME" value="testGetSec" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,20 +210,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.sensorTestValid" />
+      <item itemvalue="JUnit.test0nonextiterator" />
+      <item itemvalue="JUnit.test0nonextiterator.testGetCurrent" />
+      <item itemvalue="JUnit.test0nonextiterator.testGetSec" />
       <item itemvalue="JUnit.sensor0Seconds" />
-      <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
-      <item itemvalue="JUnit.SensorTest" />
-      <item itemvalue="JUnit.SensorTest.testGetUserName" />
-      <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test0nonextiterator" />
+        <item itemvalue="JUnit.test0nonextiterator.testGetCurrent" />
+        <item itemvalue="JUnit.test0nonextiterator.testGetSec" />
+        <item itemvalue="JUnit.sensorTestValid" />
         <item itemvalue="JUnit.sensor0Seconds" />
-        <item itemvalue="JUnit.sensorTestCurrentValueAndSecond.testGetSec" />
-        <item itemvalue="JUnit.SensorTest" />
-        <item itemvalue="JUnit.SensorTest.testGetUserName (1)" />
-        <item itemvalue="JUnit.SensorTest.testGetUserName" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +250,12 @@
       <option name="presentableId" value="Default" />
       <updated>1651843915841</updated>
       <workItem from="1651843917407" duration="2115000" />
-      <workItem from="1652163673497" duration="5983000" />
+      <workItem from="1652163673497" duration="5992000" />
+      <workItem from="1652267864716" duration="114000" />
+      <workItem from="1652267988558" duration="50000" />
+      <workItem from="1652268283265" duration="2128000" />
+      <workItem from="1652349592622" duration="622000" />
+      <workItem from="1652354686857" duration="86000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -218,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652168989385</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gud">
+      <created>1652180025093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652180025093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +316,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="gud" />
   </component>
   <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="support.Sensor" memberName="iterator" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="sensor.iterator" />
