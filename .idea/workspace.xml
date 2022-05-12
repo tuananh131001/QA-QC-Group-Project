@@ -4,68 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="gud">
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alarm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alarm$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alarm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/AlarmPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/AlarmPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alerter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alerter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Alerter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Alerter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/AlerterPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/AlerterPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/ContextManagerWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/LocationWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LocationWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Monitor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/MonitorPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/MonitorPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/PreferenceWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PreferenceWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/SensorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/SensorData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherAlarmWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/WeatherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_AlarmPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_AlarmPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_AlerterPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_AlerterPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_ContextManagerWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_ContextManagerWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_LocationWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_LocationWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_MonitorPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_MonitorPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_PreferenceWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_PreferenceWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/_WeatherAlarmWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/_WeatherAlarmWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/AllSensors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AllSensors$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/AllSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/AllSensors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$ContextManagerWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$ContextManagerWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager$MonitorI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager$MonitorI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ContextManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ContextManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$AlerterI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI$AlerterI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/EnviroAPPUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/LocationServer$LocationWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/LocationServer$LocationWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/LocationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/LocationServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/PreferenceRepository$PreferenceWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/PreferenceRepository$PreferenceWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/PreferenceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/PreferenceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/WeatherAlarms$WeatherAlarmWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/WeatherAlarms$WeatherAlarmWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/WeatherAlarms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/WeatherAlarms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/support/HandleUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/HandleUserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/support/LocationDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/LocationDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/support/Preference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/Preference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/support/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/support/Sensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensor0Seconds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensor0Seconds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestCurrentValueAndSecond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestInvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestInvalid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/sensorTestValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,6 +197,8 @@
       <workItem from="1652268283265" duration="2128000" />
       <workItem from="1652349592622" duration="622000" />
       <workItem from="1652354686857" duration="86000" />
+      <workItem from="1652370846950" duration="1550000" />
+      <workItem from="1652372423676" duration="195000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -292,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652180025093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tam">
+      <created>1652370907462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652370907462</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +263,8 @@
     <MESSAGE value="ngon" />
     <MESSAGE value="test dc r" />
     <MESSAGE value="gud" />
-    <option name="LAST_COMMIT_MESSAGE" value="gud" />
+    <MESSAGE value="tam" />
+    <option name="LAST_COMMIT_MESSAGE" value="tam" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

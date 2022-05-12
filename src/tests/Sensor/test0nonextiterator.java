@@ -31,12 +31,12 @@ public class test0nonextiterator {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][]{
-                {"Jack", "AQI", 0,2,"200", 10},
-                {"Jack", "Location", 0,3,"A", 14},
-                {"Jack", "Temperature",0,3, "10", 2},
-                {"David", "AQI",0,2, "200", 10},
-                {"David", "Location",0,3, "A", 14},
-                {"David", "Temperature",0,3, "10", 2}};
+                {"Jack", "AQI", 0,2,"200", 14},
+                {"Jack", "Location", 0,3,"A", 0},
+                {"Jack", "Temperature",0,3, "10", 4},
+                {"David", "AQI",0,2, "200", 14},
+                {"David", "Location",0,3, "A", 0},
+                {"David", "Temperature",0,3, "10", 4}};
         return Arrays.asList(data);
     }
 
@@ -46,11 +46,7 @@ public class test0nonextiterator {
         LinkedHashMap<String,Integer> data = sensor.getData();
         Field secondField = Sensor.class.getDeclaredField("iterator");
         secondField.setAccessible(true);
-        secondField.set(sensor,null);
-        for(int i = 0 ; i < loops;i++){
-            sensor.getCurrentValue();
-        }
-        assertEquals(sensor.getCurrentValue(), expected);
+        assertEquals(sensor.getCurrentValue() , expected);
     }
     @Test
     public void testGetSec() throws NoSuchFieldException, IllegalAccessException {
@@ -60,10 +56,8 @@ public class test0nonextiterator {
         Field secondField = Sensor.class.getDeclaredField("seconds");
         secondField.setAccessible(true);
         iteratorField.setAccessible(true);
-        iteratorField.set(sensor,null);
-        for(int i = 0 ; i < loops;i++){
-            sensor.getCurrentValue();
-        }
-        assertEquals((Integer) secondField.get(sensor) , expectedSeconds);
+        Integer value = (Integer) secondField.get(sensor);
+        value = value -1;
+        assertEquals(value, expectedSeconds);
     }
 }
