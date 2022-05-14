@@ -27,7 +27,6 @@ public class test0nonextiterator {
     public String expected;
     @Parameterized.Parameter(5)
     public Integer expectedSeconds;
-
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][]{

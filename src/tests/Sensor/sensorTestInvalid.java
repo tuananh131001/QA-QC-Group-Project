@@ -37,6 +37,4 @@ public class sensorTestInvalid {
         Sensor sensor = new Sensor(name,type);
     }
 
-
-
 }

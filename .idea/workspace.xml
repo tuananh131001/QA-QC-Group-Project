@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTestInvalidName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AllSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AllSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestInvalid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestInvalid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/test0nonextiterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/test0nonextiterator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/William/Documents/QA---Group-Project&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -61,8 +67,34 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test0nonextiterator">
-    <configuration name="sensor0Seconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllSensorTestInvalidName">
+    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllSensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
@@ -70,17 +102,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="liberica-18" />
       <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensor0Seconds" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sensorTestValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllSensorTestInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +118,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.sensorTestValid" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTestInvalidName" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test0nonextiterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllSensorTest.testGetSensorData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
@@ -104,39 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test0nonextiterator.testGetCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA---Group-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
-      <option name="METHOD_NAME" value="testGetCurrent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test0nonextiterator.testGetSec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA---Group-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.test0nonextiterator" />
-      <option name="METHOD_NAME" value="testGetSec" />
+      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTest" />
+      <option name="METHOD_NAME" value="testGetSensorData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,20 +149,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.sensorTestValid" />
-      <item itemvalue="JUnit.test0nonextiterator" />
-      <item itemvalue="JUnit.test0nonextiterator.testGetCurrent" />
-      <item itemvalue="JUnit.test0nonextiterator.testGetSec" />
-      <item itemvalue="JUnit.sensor0Seconds" />
+      <item itemvalue="Application.ContextManager" />
+      <item itemvalue="Application.EnviroAPPUI" />
+      <item itemvalue="JUnit.AllSensorTestInvalidName" />
+      <item itemvalue="JUnit.AllSensorTest" />
+      <item itemvalue="JUnit.AllSensorTest.testGetSensorData" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test0nonextiterator" />
-        <item itemvalue="JUnit.test0nonextiterator.testGetCurrent" />
-        <item itemvalue="JUnit.test0nonextiterator.testGetSec" />
-        <item itemvalue="JUnit.sensorTestValid" />
-        <item itemvalue="JUnit.sensor0Seconds" />
+        <item itemvalue="JUnit.AllSensorTestInvalidName" />
+        <item itemvalue="JUnit.AllSensorTest" />
+        <item itemvalue="JUnit.AllSensorTest.testGetSensorData" />
+        <item itemvalue="Application.EnviroAPPUI" />
+        <item itemvalue="Application.ContextManager" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +196,11 @@
       <workItem from="1652349592622" duration="622000" />
       <workItem from="1652354686857" duration="86000" />
       <workItem from="1652370846950" duration="1550000" />
-      <workItem from="1652372423676" duration="195000" />
+      <workItem from="1652372423676" duration="247000" />
+      <workItem from="1652425267535" duration="2212000" />
+      <workItem from="1652427701951" duration="1192000" />
+      <workItem from="1652428919859" duration="22000" />
+      <workItem from="1652521199336" duration="1960000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652370907462</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tam">
+      <created>1652372666286</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652372666286</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
