@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorStopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorGetSensorData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTestInvalidName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorTestInvalidName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/db/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/db/data.mdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllSensorStopTest.StopTest">
+  <component name="RunManager" selected="JUnit.AllSensorGetSensorData">
     <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="QA---Group-Project" />
@@ -117,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllSensorStopTest.StopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllSensorGetSensorData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
@@ -126,9 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.AllSensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.AllSensor.AllSensorStopTest" />
-      <option name="METHOD_NAME" value="StopTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.AllSensor.AllSensorGetSensorData" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,12 +144,12 @@
       <item itemvalue="Application.WeatherAlarms" />
       <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="JUnit.AllSensorStopTest.StopTest" />
+      <item itemvalue="JUnit.AllSensorGetSensorData" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllSensorStopTest.StopTest" />
+        <item itemvalue="JUnit.AllSensorGetSensorData" />
         <item itemvalue="Application.EnviroAPPUI" />
         <item itemvalue="Application.ContextManager" />
         <item itemvalue="Application.WeatherAlarms" />
@@ -197,7 +195,9 @@
       <workItem from="1652523212793" duration="45000" />
       <workItem from="1652523263076" duration="2000" />
       <workItem from="1652618929772" duration="18000" />
-      <workItem from="1652619018288" duration="779000" />
+      <workItem from="1652619018288" duration="1005000" />
+      <workItem from="1652621407710" duration="1000" />
+      <workItem from="1652627504033" duration="1819000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652523184889</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tam">
+      <created>1652620024060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652620024060</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
