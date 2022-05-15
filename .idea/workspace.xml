@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTestInvalidName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorStopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AllSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AllSensors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/sensorTestInvalid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/sensorTestInvalid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Sensor/test0nonextiterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/Sensor/test0nonextiterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/Sensor/test0nonextiterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Sensor/AllSensorTestInvalidName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorTestInvalidName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllSensorTestInvalidName">
+  <component name="RunManager" selected="JUnit.AllSensorStopTest.StopTest">
     <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="QA---Group-Project" />
@@ -94,47 +91,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllSensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PreferenceRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.PreferenceRepository" />
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllSensorTestInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTestInvalidName" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllSensorTest.testGetSensorData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllSensorStopTest.StopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Sensor.*" />
+          <option name="PATTERN" value="tests.AllSensor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Sensor" />
-      <option name="MAIN_CLASS_NAME" value="tests.Sensor.AllSensorTest" />
-      <option name="METHOD_NAME" value="testGetSensorData" />
+      <option name="PACKAGE_NAME" value="tests.AllSensor" />
+      <option name="MAIN_CLASS_NAME" value="tests.AllSensor.AllSensorStopTest" />
+      <option name="METHOD_NAME" value="StopTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,20 +142,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.PreferenceRepository" />
+      <item itemvalue="Application.WeatherAlarms" />
       <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="JUnit.AllSensorTestInvalidName" />
-      <item itemvalue="JUnit.AllSensorTest" />
-      <item itemvalue="JUnit.AllSensorTest.testGetSensorData" />
+      <item itemvalue="JUnit.AllSensorStopTest.StopTest" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllSensorTestInvalidName" />
-        <item itemvalue="JUnit.AllSensorTest" />
-        <item itemvalue="JUnit.AllSensorTest.testGetSensorData" />
+        <item itemvalue="JUnit.AllSensorStopTest.StopTest" />
         <item itemvalue="Application.EnviroAPPUI" />
         <item itemvalue="Application.ContextManager" />
+        <item itemvalue="Application.WeatherAlarms" />
+        <item itemvalue="Application.PreferenceRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +193,11 @@
       <workItem from="1652425267535" duration="2212000" />
       <workItem from="1652427701951" duration="1192000" />
       <workItem from="1652428919859" duration="22000" />
-      <workItem from="1652521199336" duration="1960000" />
+      <workItem from="1652521199336" duration="1978000" />
+      <workItem from="1652523212793" duration="45000" />
+      <workItem from="1652523263076" duration="2000" />
+      <workItem from="1652618929772" duration="18000" />
+      <workItem from="1652619018288" duration="779000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652372666286</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tam">
+      <created>1652523184889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652523184889</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
