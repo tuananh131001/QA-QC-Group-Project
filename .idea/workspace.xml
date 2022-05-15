@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/AllSensor/AllSensorGetSensorData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/db/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/db/data.mdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <workItem from="1652618929772" duration="18000" />
       <workItem from="1652619018288" duration="1005000" />
       <workItem from="1652621407710" duration="1000" />
-      <workItem from="1652627504033" duration="1819000" />
+      <workItem from="1652627504033" duration="2761000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652620024060</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tam">
+      <created>1652629358583</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652629358583</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
