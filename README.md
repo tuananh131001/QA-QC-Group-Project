@@ -11,10 +11,10 @@ make sure Maven load all dependency
 
 Install Ice-3.7.0.msi which can be found at https://zeroc.com/downloads/ice/3.7 
 
-8. Use the command  line  and  enter  the  bin  directory  of  java  project using "cd".  Input  “icebox  --
-Ice.Config=config.icebox” to start the server (make sure that the bin directory of Ice-3.7.0  is 
-included in your PATH environment variable) 
-
+```
+$ cd ./bin
+$ icebox --Ice.Config=config.icebox
+```
 # Run these files
 1. LocationServer.java 
 2. PreferenceRepository.java 
