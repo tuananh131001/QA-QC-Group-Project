@@ -1,5 +1,13 @@
 # QA---Group-Project
 
+Group 6
+
+Nguyen Quang Minh - S3748430
+Le Van Vinh - S3823614
+Ly Tin Kiet - S3755692
+Nguyen Tuan Anh - S3864077
+Tran Huy Khanh - S3804620 
+
 
 # How to run
 
