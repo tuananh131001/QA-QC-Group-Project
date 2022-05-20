@@ -14,7 +14,7 @@ import helper.User;
 import support.Preference;
 
 public class PreferenceRepository {
-	private static List<Preference> preferences;
+	static List<Preference> preferences;
 	private static final String APO = "APO";
 	private static final String WEATHER = "weather";
 	private static final Integer NORMAL = 0;
@@ -93,7 +93,7 @@ public class PreferenceRepository {
 		adapter.activate();
 	}
 
-	private static List<Preference> readPreference() {
+	static List<Preference> readPreference() {
 		List<Preference> result = new ArrayList<>();
 		File file = new File("Preference");
 		try {

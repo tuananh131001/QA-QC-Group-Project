@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="" />
+    <list default="true" id="2832a80b-49fa-4cb7-8306-41f9a501e8b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/EnviroAPPUI/EnviroAPPUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/unit/PreferenceRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PreferenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PreferenceRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,71 +64,79 @@
       <recent name="C:\Users\William\Documents\QA---Group-Project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.checkapoReached">
-    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
+  <component name="RunManager" selected="JUnit.EnviroAPPUI">
+    <configuration name="EnviroAPPUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="tests.EnviroAPPUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
-      <module name="QA---Group-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
-      <module name="QA---Group-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculateapoThreshold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA---Group-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Context.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Context" />
-      <option name="MAIN_CLASS_NAME" value="tests.Context.calculateapoThreshold" />
+      <option name="PACKAGE_NAME" value="tests.EnviroAPPUI" />
+      <option name="MAIN_CLASS_NAME" value="tests.EnviroAPPUI.EnviroAPPUI" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkapoReached" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocationServerTest.testReadConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA---Group-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Context.*" />
+          <option name="PATTERN" value="tests.EnviroAPPUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Context" />
-      <option name="MAIN_CLASS_NAME" value="tests.Context.checkapoReached" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LocationServerTest" />
+      <option name="METHOD_NAME" value="testReadConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreferenceRepo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.EnviroAPPUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.unit" />
+      <option name="MAIN_CLASS_NAME" value="tests.unit.PreferenceRepo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreferenceRepo.medicalConditionalShouldBeGotton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.EnviroAPPUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.unit" />
+      <option name="MAIN_CLASS_NAME" value="tests.unit.PreferenceRepo" />
+      <option name="METHOD_NAME" value="medicalConditionalShouldBeGotton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="infoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA---Group-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.unit.support.locationDetails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.unit.support.locationDetails" />
+      <option name="MAIN_CLASS_NAME" value="tests.unit.support.locationDetails.infoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,20 +150,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.WeatherAlarms" />
-      <item itemvalue="Application.ContextManager" />
-      <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="JUnit.calculateapoThreshold" />
-      <item itemvalue="JUnit.checkapoReached" />
+      <item itemvalue="JUnit.EnviroAPPUI" />
+      <item itemvalue="JUnit.LocationServerTest.testReadConfig" />
+      <item itemvalue="JUnit.PreferenceRepo" />
+      <item itemvalue="JUnit.PreferenceRepo.medicalConditionalShouldBeGotton" />
+      <item itemvalue="JUnit.infoTest" />
       <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.checkapoReached" />
-        <item itemvalue="JUnit.calculateapoThreshold" />
-        <item itemvalue="Application.EnviroAPPUI" />
-        <item itemvalue="Application.ContextManager" />
-        <item itemvalue="Application.WeatherAlarms" />
+        <item itemvalue="JUnit.EnviroAPPUI" />
+        <item itemvalue="JUnit.PreferenceRepo" />
+        <item itemvalue="JUnit.PreferenceRepo.medicalConditionalShouldBeGotton" />
+        <item itemvalue="JUnit.infoTest" />
+        <item itemvalue="JUnit.LocationServerTest.testReadConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +209,7 @@
       <workItem from="1652621407710" duration="1000" />
       <workItem from="1652627504033" duration="2804000" />
       <workItem from="1653040675611" duration="620000" />
+      <workItem from="1653055114450" duration="5316000" />
     </task>
     <task id="LOCAL-00003" summary="ngon">
       <created>1651844513365</created>
@@ -281,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653040690232</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ađ phan cua linh">
+      <created>1653055412008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653055412008</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +324,8 @@
     <MESSAGE value="test dc r" />
     <MESSAGE value="gud" />
     <MESSAGE value="tam" />
-    <option name="LAST_COMMIT_MESSAGE" value="tam" />
+    <MESSAGE value="ađ phan cua linh" />
+    <option name="LAST_COMMIT_MESSAGE" value="ađ phan cua linh" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
